@@ -1,0 +1,106 @@
+
+
+
+container {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  
+    color:azure;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+body {
+    text-align: center;
+    
+    
+    font-size: 15px;
+    color:azure;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1 {
+    color:azure;
+   
+    font-size: 20px;
+    margin-right: 40%;
+}
+
+h2 {
+    color:azure;
+    
+    font-size: 20px;
+    text-align: center;
+    margin-right: 0%;
+    }
+
+    h3 {
+        color:azure;
+        text-decoration: underline;
+        font-size: 20px;
+        margin-right: 20%;
+    }
+
+
+
+
+
+
+
+
+
+nav a {
+    color:azure;
+}
+
+main {
+    color:azure;
+    margin-right: 20%;
+}
+
+footer{
+    color:azure;
+    margin-right: 20%;
+}
+
+ol {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 30%;
+}
+
+.div2 {
+ text-align: center;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "Small video about my journey in life";
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    display: table;
+    clear: both;
+    width: 60%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }

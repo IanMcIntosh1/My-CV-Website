@@ -1,0 +1,87 @@
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    background-image: url(cvimages/blue.jpg);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:azure;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    display: flex;   
+}
+
+.left{
+    /* flex: 2; */
+    width: 50%;
+    padding: 50px;
+}
+
+.right{
+    /* flex: 2; */
+    width: 50%;
+    padding: 50px;
+}
+
+@media only screen and (max-width: 640px) {
+    .wrapper{
+        display: block;
+    }
+    .left {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    .right{
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    border: 5px solid; 
+    border-radius: 25px;
+    margin-left: 300px;
+}
+
+h1{
+    margin-left: 300px;
+    text-decoration: underline;
+}
+
+h2{
+    text-align: left;
+    text-decoration: underline;
+}
+
+header {
+    color:azure;
+    text-decoration: underline;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer{
+color:azure;
+text-decoration: underline;
+font-size: 30px;
+text-align: center;
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+padding-bottom: 50px;
+}
+
+video {
+    display: block;
+    margin-left: 300px;
+    margin-right: auto;
+    height: 300px;
+    width: 500px;
+    border: 5px solid;
+    border-radius: 25px;
+  }
+  
